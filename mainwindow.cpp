@@ -60,6 +60,10 @@ void MainWindow::on_errorButton_clicked()
 
 void MainWindow::on_checkCheckBox_clicked()
 {
-    
+    if (ui->checkBox->isChecked()) {
+        QMessageBox::information(this, "Check box status", "The check box is checked.");
+    } else {
+        QMessageBox::information(this, "Check box status", "The check box is not checked");
+    }
 }
 
