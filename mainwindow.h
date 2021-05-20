@@ -28,6 +28,8 @@ private slots:
     
     void on_errorButton_clicked();
     
+    void on_checkCheckBox_clicked();
+    
 private:
     Ui::MainWindow *ui;
 };

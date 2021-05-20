@@ -57,3 +57,9 @@ void MainWindow::on_errorButton_clicked()
     QMessageBox::warning(this, "Error", "This is a error");
 }
 
+
+void MainWindow::on_checkCheckBox_clicked()
+{
+    
+}
+

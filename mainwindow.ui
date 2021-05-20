@@ -134,6 +134,107 @@
      <string>Error</string>
     </property>
    </widget>
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>256</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Tree</string>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>Item 1</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Item 1.1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Item 1.2</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>Item 2</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Item 2.1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Item 2.2</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>Item 3</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Item 3.1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Item 3.2</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>Item 4</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Item 4.1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Item 4.2</string>
+      </property>
+     </item>
+    </item>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>70</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Check Box</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="checkCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>70</y>
+      <width>211</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Is the check box checked?</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
