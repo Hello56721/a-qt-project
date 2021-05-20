@@ -24,6 +24,10 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_warningButton_clicked();
+    
+    void on_errorButton_clicked();
+    
 private:
     Ui::MainWindow *ui;
 };

@@ -45,3 +45,15 @@ void MainWindow::on_pushButton_2_clicked()
     ui->progressBar->setValue(value);
 }
 
+
+void MainWindow::on_warningButton_clicked()
+{
+    QMessageBox::warning(this, "Warning", "This is a warning.");
+}
+
+
+void MainWindow::on_errorButton_clicked()
+{
+    QMessageBox::warning(this, "Error", "This is a error");
+}
+
